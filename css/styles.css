@@ -26,7 +26,7 @@ li {
 
 .d {
     background-color: #3cb371;
-    /* font-size: 72px; */
+    font-size: 72px;
 }
 
 .e {
@@ -35,4 +35,12 @@ li {
 
 .f {
     background-color: #9370db;
+}
+
+/* flexbox responds to the content and their natural width first, then it distributes the leftover space on the row */
+/* flex items are the width of the content inside of them */
+ul.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
